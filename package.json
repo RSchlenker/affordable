@@ -1,0 +1,24 @@
+{
+  "name": "affordable",
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "ramda": "^0.28.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.18.6",
+    "babel-jest": "^28.1.3",
+    "eslint": "^7.32.0",
+    "jest": "^27.0.5",
+    "prettier": "^2.8.1"
+  },
+  "jest": {
+    "verbose": true,
+    "transform": {
+      "^.+\\.m?jsx?$": "babel-jest"
+    }
+  }
+}
